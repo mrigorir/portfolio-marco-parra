@@ -9,11 +9,11 @@
 
 <br>
 
-# You can visit my portfolio [here!](https://mrigorir.github.io/portfolio/)
+## You can visit my portfolio [here!](https://mrigorir.github.io/portfolio/)
 
 <br>
 
-## **What was built in this project**
+# **What was built in this project**
 
 - My Portfolio
 
