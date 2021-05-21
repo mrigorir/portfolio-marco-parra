@@ -15,7 +15,7 @@
 
 # **What was built in this project**
 
-- My Portfolio
+- My frist portfolio.
 
 
 ## Built With
