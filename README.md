@@ -10,7 +10,7 @@
 [you can visit my portfolio here!](https://mrigorir.github.io/portfolio/)
 
 
-**What was built in this project**
+## **What was built in this project**
 
 - My Portfolio
 
