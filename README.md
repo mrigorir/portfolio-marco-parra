@@ -7,7 +7,7 @@
 
 # Live 
 
-[you can visit my portfolio here!](https://mrigorir.github.io/portfolio/)
+### You can visit my portfolio [here!](https://mrigorir.github.io/portfolio/)
 
 
 ## **What was built in this project**
