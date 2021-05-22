@@ -1,18 +1,21 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio
+# My Portfolio :satisfied:
 
 > Here I present to you my first portfolio made with bootstrap, I took the layout from [startbootstrap.com](https://startbootstrap.com/theme/freelancer) I like it a lot because it's minimalistic, straight and simple, it gets to the point with a notory simple beauty. That's how like desing: simple, communicative and beautiful at the same time. As the time passes by, this portfolio will present amazing full stack projects and will be updated wheneverit needs to. 
 
 
-## Live 
+# :star::star: Live :star::star:
 
-[you can visit my portfolio here!](https://mrigorir.github.io/portfolio/)
+<br>
 
+## You can visit my portfolio [here!](https://mrigorir.github.io/portfolio/)
 
-**What was built in this project**
+<br>
 
-- My Portfolio
+# **What was built in this project**
+
+- My frist portfolio.
 
 
 ## Built With
