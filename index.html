@@ -75,7 +75,7 @@
             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
               <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
             </div>
-            <img class="img-fluid" src="assets/img/portfolio/estocker.png" alt="..."style="width: 332px; height: 316px;"/>
+            <img class="img-fluid" src="assets/img/portfolio/newsweek.png" alt="..."style="width: 332px; height: 316px;"/>
           </div>
         </div>
         <!-- Portfolio Item 2 -->
@@ -84,7 +84,7 @@
             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
               <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
             </div>
-            <img class="img-fluid" src="assets/img/portfolio/inspired.png" alt="..." style="width: 332px; height: 316px;"/>
+            <img class="img-fluid" src="assets/img/portfolio/patashule.png" alt="..." style="width: 332px; height: 316px;"/>
           </div>
         </div>
         <!-- Portfolio Item 3 -->
@@ -93,7 +93,7 @@
             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
               <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
             </div>
-            <img class="img-fluid" src="assets/img/portfolio/sirolli.png" alt="..." style="width: 332px; height: 316px;"/>
+            <img class="img-fluid" src="assets/img/portfolio/event3.png" alt="..." style="width: 332px; height: 316px;"/>
           </div>
         </div>
         <!-- Portfolio Item 4 -->
@@ -125,10 +125,14 @@
           <div class="col-lg-4 mr-auto"><p class="lead">Attentive, calm, hard-working, responsible, without vices (except for the love I have for junk food), RPG player, and always aware of the latest technologies.</p></div>
         </div>
           <!-- About Section Button-->
-          <div class="text-center mt-4">
+          <div class="d-flex align-items-center justify-content-center mt-4">
             <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/theme/freelancer/" data-toggle="modal" data-target="#buttonAbout">
-                <i class="fas fa-laptop mr-2"></i>
-                My skills!
+              <i class="fas fa-laptop mr-2"></i>
+              My skills!
+            </a>
+            <a class="btn btn-xl btn-outline-light ml-5" href="assets/my_cv/cv.pdf" download >
+              <i class="fas fa-laptop mr-2"></i>
+              My resume
             </a>
         </div>
       </div>
@@ -148,37 +152,30 @@
         <div class="row">
           <div class="col-lg-8 mx-auto">
             <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19.-->
-            <form id="contactForm" name="sentMessage" novalidate="novalidate">
+            <form action="https://formspree.io/f/xzbyvkea" id="contactForm" name="sentMessage" method="POST">
               <div class="control-group">
                 <div class="form-group floating-label-form-group controls mb-0 pb-2">
                   <label>Name</label>
-                  <input class="form-control" id="name" type="text" placeholder="Name" required="required" data-validation-required-message="Please enter your name." />
+                  <input name="_name" class="form-control" id="name" type="text" placeholder="Name" required="required"  >
                   <p class="help-block text-danger"></p>
                 </div>
               </div>
               <div class="control-group">
                 <div class="form-group floating-label-form-group controls mb-0 pb-2">
                   <label>Email Address</label>
-                  <input class="form-control" id="email" type="email" placeholder="Email Address" required="required" data-validation-required-message="Please enter your email address." />
-                  <p class="help-block text-danger"></p>
-                </div>
-              </div>
-              <div class="control-group">
-                <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                  <label>Phone Number</label>
-                  <input class="form-control" id="phone" type="tel" placeholder="Phone Number" required="required" data-validation-required-message="Please enter your phone number." />
+                  <input name="_replyto" class="form-control" id="email" type="email" placeholder="Email Address" required="required" />
                   <p class="help-block text-danger"></p>
                 </div>
               </div>
               <div class="control-group">
                 <div class="form-group floating-label-form-group controls mb-0 pb-2">
                   <label>Message</label>
-                  <textarea class="form-control" id="message" rows="5" placeholder="Message" required="required" data-validation-required-message="Please enter a message."></textarea>
+                  <textarea name="_message" class="form-control" id="message" rows="5" placeholder="Message" required="required" ></textarea>
                   <p class="help-block text-danger"></p>
                 </div>
               </div>
               <br />
-              <div id="success"></div>
+              <div id="status"></div>
               <div class="form-group"><button class="btn btn-primary btn-xl" id="sendMessageButton" type="submit">Send</button></div>
             </form>
           </div>
@@ -243,37 +240,34 @@
       <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
           <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true"><i class="fas fa-times" style="color: #163055;"></i></span>
+            <span aria-hidden="true"><i class="fas fa-times" style="color: #eb1c24;"></i></span>
           </button>
           <div class="modal-body text-center">
             <div class="container">
               <div class="row justify-content-center">
                 <div class="col-lg-12">
                   <!-- Portfolio Modal - Title -->
-                  <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal1Label">e-stocker</h2>
+                  <h2 class="portfolio-modal-title text-uppercase mb-0" id="portfolioModal1Label" style="color: #eb1c24;">newsweek</h2>
                   <!-- Icon Divider -->
                   <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-line" style="background-color: #eb1c24;"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"  style="color: #eb1c24;"></i></div>
+                    <div class="divider-custom-line" style="background-color: #eb1c24;"></div>
                   </div>
                   <!-- Portfolio Modal - Image -->
-                  <img class="img-fluid rounded mb-5" src="assets/img/portfolio/estocker.png" alt="..." style="height: 350px; width: 350px;"/>
+                  <img class="img-fluid rounded mb-5" src="assets/img/portfolio/newsweek.png" alt="..." style="height: 350px; width: 350px;"/>
                   <!-- Portfolio Modal - Text -->
-                  <p class="mb-4 text-secondary text-justify" style="font-size: 18px;">This site is responsible for providing advertising space for heavy machine sellers to post their products.</p>
+                  <p class="mb-4 text-secondary text-center" style="font-size: 18px;">This is a clone of newsweek page.</p>
                   <div class="d-flex aling-items-center justify-content-center">
-                    <button class="btn btn-secondary mr-3" disabled>
+                    <a href="https://github.com/mrigorir/newsweek" class="btn btn-dark mr-3">
                       <i class="fab fa-fw fa-github pr-1"></i>
                       Soruce code
-                    </button>
-                    <a class="btn btn-primary" href="http://www.e-stocker.com/" target="_blank" style="background-color: #163055; border: #163055">
+                    </a>
+                    <a class="btn btn-primary" href="https://mrigorir.github.io/newsweek/?" target="_blank" style="background-color: #eb1c24; border: #eb1c24">
                       <i class="fas fa-times fa-paper-plane pr-1"></i>
                       Visit website!
                     </a>
                   </div>
-                 <p class="text-justify text-secondary mt-4 border p-2 rounded" style="font-size: 16px;">
-                  <strong class="pr-1">NOTE:</strong> Access to the source code is disabled because this project was made for a company that hired me, thus they keep the information confidential. 
-                 </p>
                 </div>
               </div>
             </div>
@@ -286,37 +280,34 @@
       <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
           <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true"><i class="fas fa-times" style="color: #d54444"></i></span>
+              <span aria-hidden="true"><i class="fas fa-times" style="color: #d35649"></i></span>
           </button>
           <div class="modal-body text-center">
             <div class="container">
               <div class="row justify-content-center">
                 <div class="col-lg-12">
                   <!-- Portfolio Modal - Title -->
-                  <h2 class="portfolio-modal-title text-uppercase mb-0" id="portfolioModal1Label" style="color: #d54444">Inspired method</h2>
+                  <h2 class="portfolio-modal-title text-uppercase mb-0" id="portfolioModal1Label" style="color: #d35649">Patashule</h2>
                   <!-- Icon Divider -->
                   <div class="divider-custom">
-                    <div class="divider-custom-line" style="background-color: #d54444;"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star" style="color: #d54444"></i></div>
-                    <div class="divider-custom-line" style="background-color: #d54444;"></div>
+                    <div class="divider-custom-line" style="background-color: #d35649;"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star" style="color: #d35649"></i></div>
+                    <div class="divider-custom-line" style="background-color: #d35649"></div>
                   </div>
                   <!-- Portfolio Modal - Image -->
-                  <img class="img-fluid rounded mb-5" src="assets/img/portfolio/inspired.png" alt="..." style="height: 350px; width: 350px;"/>
+                  <img class="img-fluid rounded mb-5" src="assets/img/portfolio/patashule.png" alt="..." style="height: 350px; width: 350px;"/>
                   <!-- Portfolio Modal - Text -->
-                  <p class="mb-5 text-secondary text-justify" style="font-size: 18px;">Inspired Method Marketing & Coaching is a one-stop-shop to help you grow your business.</p>
+                  <p class="mb-5 text-secondary text-center" style="font-size: 18px;">A clone from patashuel web pasite</p>
                   <div class="d-flex aling-items-center justify-content-center">
-                    <button class="btn btn-secondary mr-3" disabled>
+                    <a href="https://github.com/mrigorir/patashule" class="btn btn-dark mr-3">
                       <i class="fab fa-fw fa-github pr-1"></i>
                       Soruce code
-                    </button>
-                    <a class="btn btn-primary" href="http://www.inspiredmethod.com/" target="_blank" style="background-color: #d54444; border: #d54444;">
+                    </a>
+                    <a class="btn btn-primary" href="https://mrigorir.github.io/patashule/index.html" target="_blank" style="background-color: #d35649; border: #d35649">
                       <i class="fas fa-times fa-paper-plane pr-1"></i>
                       Visit website!
                     </a>
                   </div>
-                 <p class="text-justify text-secondary mt-4 border p-2 rounded" style="font-size: 16px;">
-                  <strong class="pr-1">NOTE:</strong> Access to the source code is disabled because this project was made for a company that hired me, thus they keep the information confidential. 
-                 </p>
                 </div>
               </div>
             </div>
@@ -329,37 +320,34 @@
       <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
           <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true"><i class="fas fa-times"></i></span>
+              <span aria-hidden="true"><i class="fas fa-times text-dark"></i></span>
           </button>
           <div class="modal-body text-center">
             <div class="container">
               <div class="row justify-content-center">
                 <div class="col-lg-12">
                   <!-- Portfolio Modal - Title -->
-                  <h2 class="portfolio-modal-title text-primary text-uppercase mb-0" id="portfolioModal3Label">sirolli</h2>
+                  <h2 class="portfolio-modal-title text-dark text-uppercase mb-0" id="portfolioModal3Label">Private Events</h2>
                   <!-- Icon Divider -->
                   <div class="divider-custom">
-                    <div class="divider-custom-line bg-primary"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star text-primary"></i></div>
-                    <div class="divider-custom-line bg-primary"></div>
+                    <div class="divider-custom-line bg-dark"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star text-dark"></i></div>
+                    <div class="divider-custom-line bg-dark"></div>
                   </div>
                   <!-- Portfolio Modal - Image -->
-                  <img class="img-fluid rounded mb-5" src="assets/img/portfolio/sirolli.png" alt="..." style="height: 350px; width: 350px;" />
+                  <img class="img-fluid rounded mb-5" src="assets/img/portfolio/event1.png" alt="..."  />
                   <!-- Portfolio Modal - Text -->
-                  <p class="mb-5">Sirolli is international enterprise facilitation for global communities since 1985.</p>
+                  <p class="mb-5">This is raisl app that displays a list past and upcomming events. User can create events and assign attendees.</p>
                   <div class="d-flex aling-items-center justify-content-center">
-                    <button class="btn btn-secondary mr-3" disabled>
+                    <a href="https://github.com/mrigorir/private-events" class="btn btn-dark mr-3">
                       <i class="fab fa-fw fa-github pr-1"></i>
                       Soruce code
-                    </button>
-                    <a class="btn btn-primary" href="http://www.sirolli.com/" target="_blank">
+                    </a>
+                    <a class="btn btn-dark" href="https://serene-woodland-42598.herokuapp.com/#" target="_blank">
                       <i class="fas fa-times fa-paper-plane pr-1"></i>
                       Visit website!
                     </a>
                   </div>
-                 <p class="text-justify text-secondary mt-4 border p-2 rounded" style="font-size: 16px;">
-                  <strong class="pr-1">NOTE:</strong> Access to the source code is disabled because this project was made for a company that hired me, thus they keep the information confidential. 
-                 </p>
                 </div>
               </div>
             </div>
@@ -455,7 +443,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
     <!-- Contact form JS-->
     <script src="assets/mail/jqBootstrapValidation.js"></script>
-    <script src="assets/mail/contact_me.js"></script>
+    <script src="assets/mail/contact_me.js"></script> 
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
   </body>
